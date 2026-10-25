@@ -1,0 +1,38 @@
+{
+ "official_sample": {
+  "cases": 32,
+  "status_accuracy": 1.0,
+  "step_precision": 0.9345238095238095,
+  "step_recall": 0.8134715025906736,
+  "step_f1": 0.8698060941828255,
+  "field_accuracy": {
+   "phase": 1.0,
+   "system_id": 1.0,
+   "resource_id": 1.0,
+   "operation": 1.0,
+   "state": 1.0,
+   "evidence_id": 1.0
+  },
+  "matched_step_keys": "157/193",
+  "sequence_accuracy_exact": 0.46875,
+  "sequence_similarity_lcs": 0.8334442178192178
+ },
+ "custom_cases": {
+  "cases": 7,
+  "status_accuracy": 1.0,
+  "step_precision": 0.9375,
+  "step_recall": 1.0,
+  "step_f1": 0.967741935483871,
+  "field_accuracy": {
+   "phase": 1.0,
+   "system_id": 1.0,
+   "resource_id": 1.0,
+   "operation": 1.0,
+   "state": 1.0,
+   "evidence_id": 1.0
+  },
+  "matched_step_keys": "30/30",
+  "sequence_accuracy_exact": 0.5714285714285714,
+  "sequence_similarity_lcs": 0.8129251700680272
+ }
+}

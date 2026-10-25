@@ -1,0 +1,31 @@
+
+## 2026-10-25T07:23:07Z SESSION START
+
+tool=Hermes Agent (Nous Research CLI)
+model=moonshotai/Kimi-K3
+Repo Root: /mnt/hostname/hackerrank-orchestrate-october26
+Branch: unknown (not a git repo)
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: ~6h (per user prompt; not configured in repo)
+
+## 2026-10-25T08:25:00Z Full submission pipeline fix and packaging
+
+User Prompt (verbatim, secrets redacted):
+Work the HackerRank Orchestrate "Ghost Data Still Exists" loop: probe real schema, iterate against sample_output.csv until sample accuracy is as high as honestly possible, final full run, evaluation + usage reports, README, zip packaging, report metrics and paths.
+
+Agent Response Summary:
+Rewrote the evidence/state layer so system_id comes from evidence contents not file names; made manifest captured_at the admissibility cutoff at audit_at; merged kv-log started/completed trace tokens; fixed the intent gate for the real request phrasings; distinguished SUPPORT_ATTACHMENT from SUPPORT_MESSAGE; added DELETE-treatment override from workflow DELETE_RECORD activity; handled JSON-payload syslog logs. Rebuilt the synthetic team cases in the real schema (7 cases) and the unit tests; all 10 tests pass. Final run produced output.csv (518 rows) and packaged code_submission.zip.
+
+Actions:
+* edited code/ghostaudit/{evidence,state,planner,policy,agent,intent}.py, code/evaluation/{synthetic,run_eval,notes}.py/md, code/tests/test_agent.py, code/README.md
+* ran python code/main.py (518 rows), --eval, unittest (OK), zip -r ~/code_submission.zip code
+
+Context:
+tool=Hermes Agent (Nous Research CLI)
+model=moonshotai/Kimi-K3
+branch=unknown
+repo_root=/mnt/hostname/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none

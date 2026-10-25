@@ -1,0 +1,17 @@
+# warnings
+no text extracted from evidence_04 (.png)
+no text extracted from evidence_09 (.png)
+no text extracted from evidence_14 (.png)
+no text extracted from evidence_18 (.pdf)
+no text extracted from evidence_19 (.png)
+no text extracted from evidence_23 (.png)
+no text extracted from evidence_27 (.pdf)
+no text extracted from evidence_28 (.png)
+no text extracted from evidence_32 (.png)
+no text extracted from evidence_37 (.png)
+no text extracted from evidence_42 (.png)
+no text extracted from evidence_46 (.png)
+no text extracted from evidence_55 (.pdf)
+no text extracted from evidence_58 (.pdf)
+no text extracted from evidence_60 (.png)
+# errors

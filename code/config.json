@@ -1,0 +1,7 @@
+{
+  "columns": {},
+  "prices_usd_per_mtok": {
+    "claude-haiku-5-5": {"input": 0.0, "output": 0.0}
+  },
+  "_comment": "Override column names if auto-detection picks wrong ones, e.g. {\"columns\": {\"activity\": {\"operation\": \"event_name\"}}}. Fill in real prices before submitting if you enable --use-llm."
+}
